@@ -11,14 +11,17 @@
 
 
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
+
+    <script src="https://kit.fontawesome.com/645a3a1c42.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-Forside
+<?php include 'header.php';?>
 
+Tekst
 
+<?php include 'footer.php';?>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
