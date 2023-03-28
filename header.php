@@ -5,3 +5,7 @@
         </a>
     </div>
 </nav>
+
+<!-- skubber side ned, så header ikke er i vejen -->
+<div class="my-5 py-2">
+</div>

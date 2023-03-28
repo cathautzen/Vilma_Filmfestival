@@ -16,10 +16,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body class="bg-baggrund">
 <?php include 'header.php';?>
 
-Tekst
+<div class="text-center">
+    <img src="images/v-logo.png" width="180">
+</div>
 
 <?php include 'footer.php';?>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

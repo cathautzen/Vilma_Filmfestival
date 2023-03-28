@@ -1,5 +1,5 @@
 <nav class="navbar navbar-light bg-header fixed-bottom">
-    <div class="container d-flex justify-content-around">
+    <div class="container d-flex justify-content-around fw-bold">
         <div class="text-center">
             <a class="text-white" href="#">
                 <i class="fa-regular fa-star fa-2xl"></i>
