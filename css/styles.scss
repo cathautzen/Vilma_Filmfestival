@@ -11,7 +11,8 @@ $link-decoration: none;
 $custom-colors: (
 	"farve": $cyan-400,
 	"header": #AF5625,
-	"baggrund": #F1E6E3
+	"baggrund": #F1E6E3,
+	"knap": #458977
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -21,4 +22,18 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // 5. Du kan lave styling her...
 
 
-// Style til carousel //
+@font-face {
+	font-family: "AnotherShabby";
+	src: url("../fonts/another-shabby-light.ttf");
+	src: url('../fonts/another-shabby-light.woff2') format('woff2');
+	src: url('../fonts/another-shabby-light.woff') format('woff');
+}
+
+
+h2 {
+	font-family: "AnotherShabby", sans-serif;
+}
+
+.card-text {
+ font-family: Open Sans, sans-serif;
+}
