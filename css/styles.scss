@@ -12,7 +12,9 @@ $custom-colors: (
 	"farve": $cyan-400,
 	"header": #AF5625,
 	"baggrund": #F1E6E3,
-	"knap": #458977
+	"knap": #458977,
+	"gul": #E0A10D,
+	"reed": #E7420C
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -35,5 +37,6 @@ h2 {
 }
 
 .card-text {
- font-family: Open Sans, sans-serif;
+ font-family: "Open Sans", sans-serif;
+	font-size: 14px;
 }

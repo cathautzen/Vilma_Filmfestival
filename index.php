@@ -29,7 +29,7 @@
 <div class="container d-flex justify-content-center">
     <div class="col-10 card border-0">
         <div class="card-body">
-            <h5 class="card-title h2">Velkommen til Vilma Filmfestival</h5>
+            <h5 class="card-title h2 text-center">Velkommen til Vilma Filmfestival</h5>
             <p class="card-text">Din go-to-app til dette års store film
                 oplevelse. Der bliver vist danske film,
                 interviews med skuespillere og spændende
@@ -58,20 +58,20 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-        <div class="carousel-item active">
+        <a href="film_1.php" class="carousel-item active">
             <img src="images/film1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
                 <h5>Vil du se min smukke navle?</h5>
                 <p>Vises d. 2 April 2024</p>
             </div>
-        </div>
-        <div class="carousel-item">
+        </a>
+        <a href="film_2.php" class="carousel-item">
             <img src="images/film2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption">
                 <h5>Adams Æbler</h5>
                 <p>Vises d. 3 April 2024</p>
             </div>
-        </div>
+        </a>
         <div class="carousel-item">
             <img src="images/film3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption ">
@@ -91,7 +91,7 @@
 </div>
 </div>
 <br>
-
+<br>
 <!-- koden til Gæster carousel -->
 <div class="text-center">
     <h2 class="">Årets Gæster</h2>
@@ -104,20 +104,20 @@
             <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <a href="guest_1.php" class="carousel-item active">
                 <img src="images/person1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <h5>Sofie lassen kahlke</h5>
                     <p>Taler d. 2 April 2024</p>
                 </div>
-            </div>
-            <div class="carousel-item">
+            </a>
+            <a href="guest_2.php" class="carousel-item">
                 <img src="images/person2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <h5>Søren Kragh-Jacobsen</h5>
                     <p>Vises d. 3 April 2024</p>
                 </div>
-            </div>
+            </a>
             <div class="carousel-item">
                 <img src="images/person3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption ">
@@ -158,6 +158,23 @@
         </div>
     </div>
 </div>
+<br>
+<div class="text-center">
+    <img src="images/swirl-right.png" height="120">
+</div>
+<br>
+<div class="container d-flex justify-content-center">
+    <div class="card border-0 col-10">
+        <div class="card-body ">
+            <h5 class="card-title">Vil du udforske en omfattende samling af ungdomsfilm fra 1950 til 2020?</h5>
+            <p class="card-text">
+                Vores håndplukkede og store udvalg inkluderer alt fra tidlige klassikere som "Vil du se min smukke navle?" og "Kundskabens træ" til nyere film som “Blinkende lygter" og "Adams æbler".
+                Uanset om du er interesseret i teenagedramaer, coming-of-age-film eller ungdomskomedier, så er der noget for enhver smag.</p>
+            <a class="btn btn-knap text-white fw-bold" href="#" role="button">Udforsk flere spændende ungdomsfilm fra 1950-2020</a>
+        </div>
+    </div>
+</div>
+
 
 
 <?php include 'footer.php';?>
