@@ -25,7 +25,6 @@
 <div class="text-center">
     <img src="images/v-logo.png" width="180">
 </div>
-<br>
 <div class="text-center">
     <img src="images/swirl-right.png" height="120">
 </div>
@@ -45,7 +44,7 @@
 <div class="container d-flex justify-content-center">
     <div class="card border-0 col-10">
         <div class="card-body bg-knap">
-            <p class="card-text">
+            <p class="card-text text-white">
                 <b>Udgivelsesår:</b> 15. april 2005<br>
                 <b>Spilletid:</b> 1 t 34 m<br>
                 <b>Instruktør:</b> Anders Thomas Jensen</p>

@@ -107,7 +107,7 @@
             <a href="guest_1.php" class="carousel-item active">
                 <img src="images/person1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <h5>Sofie lassen kahlke</h5>
+                    <h5>Sofie Lassen Kahlke</h5>
                     <p>Taler d. 2 April 2024</p>
                 </div>
             </a>
@@ -115,14 +115,14 @@
                 <img src="images/person2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
                     <h5>Søren Kragh-Jacobsen</h5>
-                    <p>Vises d. 3 April 2024</p>
+                    <p>Taler d. 3 April 2024</p>
                 </div>
             </a>
             <div class="carousel-item">
                 <img src="images/person3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption ">
                     <h5>Bille August</h5>
-                    <p>Vises d. 5 April 2024</p>
+                    <p>Taler d. 5 April 2024</p>
                 </div>
             </div>
         </div>

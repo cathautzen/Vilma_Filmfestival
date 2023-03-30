@@ -25,7 +25,6 @@
 <div class="text-center">
     <img src="images/v-logo.png" width="180">
 </div>
-<br>
 <div class="text-center">
     <img src="images/swirl-right.png" height="120">
 </div>
@@ -46,7 +45,7 @@
 <div class="container d-flex justify-content-center">
     <div class="card border-0 col-10">
         <div class="card-body bg-gul">
-            <p class="card-text">
+            <p class="card-text text-white">
                 <b>Født:</b> 2. marts 1947<br>
                 Filminstruktør, Sanger, manuskriptforfatter
                 & komponist.<br>
